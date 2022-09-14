@@ -1,0 +1,13 @@
+node_modules/
+build/
+dist/
+bkup/
+*.pem
+*.cer
+*.p12
+*.enc
+*.bak
+*.zip
+*.exe
+*.obj
+a.o
