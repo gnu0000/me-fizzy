@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Fizzy</title>
+      <link type="text/css" rel="stylesheet" href="fizzy.css" />
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.js"></script>
+      <script type="module" src="fizzy.js"></script>
+   </head>
+   <body>
+      <div id="container">
+         <div id="box1">
+            <canvas>Sorry.</canvas>
+         </div>
+         <div id="box2">
+            <canvas>Sorry.</canvas>
+         </div>
+      </div>
+      <div id="info" class="red">-info-</div>
+      <div id="docs">
+         <h2>Fizzy - a canvas particle demo.</h2>
+         <p>This canvas demo is a new implementation of <a href="https://codepen.io/waisbren89/pen/gwvVpP">Fizzy Sparks</a> by <a href="https://codepen.io/waisbren89">Bennett Waisbren</a>.</p>
+         <p>This re-implementation is to show a cleaner javcascript. It is in no way an indictment of the original code; that was just a sample demo created in codepen.</p>
+         <p>Rather, I chose this because it has a lot of the same issues and idioms I encounter in javascript code, and I wanted to show what a cleaner codebase would look like by comparison.</p>
+         Some general rules I follow:
+         <ul>
+         <li>Use proper Javascript classes                             </li>
+         <li>Put class variables in the constructor                    </li>
+         <li>Put event handler hooks in the constructor where feasable </li>
+         <li>Prefer class methods to anonymous functions               </li>
+         <li>Don't use libraries with little to no use                 </li>
+         <li>Use decent identifier names                               </li>
+         <li>Avoid use of nested functions where feasable              </li>
+         <li>Avoid nested variable scoping (mostly in nested functions)</li>
+         <li>Prefer requestAnimationFrame over setInterval             </li>
+         <li>Base animation rate on time, not refresh interval         </li>
+         </ul>
+         <p>The idea is to make code as easily understandable and maintainable as you can</p>
+         <a href="original/fizzy.js">Original Javascript code</a><br/>
+         <a href="fizzy.js">My Javascript Implementation</a>
+          
+      </div>
+   </body>
+</html>
