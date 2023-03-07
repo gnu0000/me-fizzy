@@ -24,5 +24,6 @@ Rather, I chose this because it has a lot of the same issues and idioms I encoun
 Also removed the following libs: TimelineMax, TweenMax, browser.min.js, jquery.imagesloaded
 
 original code - http://craig/toys/fizzy/original/fizzy.js
+
 new code - https://craig-fitzgerald.com/toys/fizzy/fizzy.js
 
